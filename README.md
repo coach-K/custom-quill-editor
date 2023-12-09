@@ -94,4 +94,3 @@ https://player.vimeo.com/video/647293768?h=6b90701171
 ## Having Issues running the project
 
 Don't hesitate to raise a git issue or send an email to codekenn@gmail.com
-````
