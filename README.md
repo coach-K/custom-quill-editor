@@ -3,7 +3,7 @@
 This project is written in Typescript and it extended the Quill Open Source Library.
 It is a customized WYSIWYG Editor and it's easily customizable and flexible for extension.
 
-See project [Demo here](https://coach-k.github.io/custom-quill-editor/demo/)
+See project [Demo here](https://coach-k.github.io/custom-quill-editor/demo/){:target="_blank"}
 
 ## Development
 
