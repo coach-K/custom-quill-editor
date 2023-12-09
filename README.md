@@ -68,7 +68,8 @@ let jsonContent = JSON.stringify(delta);
 // Number 3.
 var htmlContent = customQuill.getEditor().root.innerHTML;
 // The choice is yours.
-```javascript
+
+````
 
 ## To test the Video and Social Embed Section
 
