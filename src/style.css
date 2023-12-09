@@ -1,10 +1,16 @@
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   background-color: #fafafa;
-  padding: 50px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 20px;
 }
 
 .ql-editor {
-  /* min-height: 400px; */
   color: #454545;
   font-size: 11pt;
   height: auto;
@@ -39,8 +45,8 @@ body {
 
 .ql-container {
   border: none;
-  min-height: 300px;
-  max-height: 400px; /* Remove for full height */
+  min-height: calc(100vh - 285px);
+  max-height: calc(100vh - 285px); /* Remove for full height */
 }
 
 .ql-editor.ql-blank::before {

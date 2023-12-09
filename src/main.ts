@@ -3,13 +3,17 @@ import "./style.css";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
-    <h1>Quill Demo</h1>
-    <br /><br />
-
     <div class="main-container">
       <div class="header"></div>
       <div class="content">
-        <input id="editor-title" class="editor-title" type="text" placeholder="Add post title" tabindex="0">
+        <input
+          id="editor-title"
+          class="editor-title"
+          type="text"
+          placeholder="Add Content"
+          tabindex="0"
+          autocomplete="off"
+        >
         <div
           id="editor"
           tabindex="1"
