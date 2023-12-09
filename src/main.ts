@@ -29,17 +29,4 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 `;
 
 // See CustomQuillOptions for customizing the editor.
-let customQuill = new CustomQuill(
-  document.querySelector<HTMLDivElement>("#editor")!
-);
-// You can get the content from Editor the following ways.
-let titleInput = document.querySelector<HTMLInputElement>("#editor-title")!;
-let title = titleInput.value;
-// Number 1.
-let text = customQuill.getEditor().getText();
-// Number 2.
-var delta = customQuill.getEditor().getContents();
-JSON.stringify(delta);
-// Number 3.
-var htmlContent = customQuill.getEditor().root.innerHTML;
-// The choice is yours.
+new CustomQuill(document.querySelector<HTMLDivElement>("#editor")!);

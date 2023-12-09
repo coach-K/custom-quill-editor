@@ -194,7 +194,7 @@ class MoreButton {
     fileInput.setAttribute("accept", "image/png, image/jpg, image/jpeg");
 
     let file: string | ArrayBuffer | null;
-    fileInput.onchange = (e) => {
+    fileInput.onchange = () => {
       if (fileInput.files != null) {
         let fileData = fileInput.files[0];
         if (fileData.name.length > 30) {
@@ -214,7 +214,7 @@ class MoreButton {
         };
       }
     };
-    uploadContainer.onclick = (e) => {
+    uploadContainer.onclick = () => {
       fileInput.click();
     };
 

@@ -121,10 +121,6 @@ body {
     padding: 16px 0px;
 }
 
-.btn-post {
-
-}
-
 .btn-more {
   color: #000;
   background-color: #dfe8e0;
@@ -161,10 +157,6 @@ body {
   z-index: 9999;
   border: 1px solid #e5e5e5 !important;
   min-width: 200px;
-}
-
-.li-item {
-  
 }
 
 .li-item-btn {
@@ -204,21 +196,9 @@ body {
 
 /* Dialog Styles */
 
-.custom-modal-dialog {
-  
-}
-
-.custom-modal-content {
-
-}
-
 .custom-modal-header {
   padding-bottom: 0px;
   border-bottom: none;
-}
-
-.custom-modal-body {
-
 }
 
 .custom-modal-footer {
@@ -272,10 +252,6 @@ body {
 .custom-btn-upload {
   font-size: 8pt !important;
   color: #757575;
-}
-
-.custom-btn-ok {
-
 }
 
 .custom-btn-cancel {
