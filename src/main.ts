@@ -10,7 +10,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
           id="editor-title"
           class="editor-title"
           type="text"
-          placeholder="Add Content"
+          placeholder="Add post title"
           tabindex="0"
           autocomplete="off"
         >

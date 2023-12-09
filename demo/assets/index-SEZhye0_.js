@@ -47,7 +47,7 @@ var mt=Object.defineProperty;var gt=(ut,G,I)=>G in ut?mt(ut,G,{enumerable:!0,con
           id="editor-title"
           class="editor-title"
           type="text"
-          placeholder="Add Content"
+          placeholder="Add post title"
           tabindex="0"
           autocomplete="off"
         >
