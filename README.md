@@ -3,7 +3,7 @@
 This project is written in Typescript and it extended the Quill Open Source Library.
 It is a customized WYSIWYG Editor and it's easily customizable and flexible for extension.
 
-See project [Demo here](https://www.github.io/custom-quill-editor/demo/)
+See project [Demo here](https://coach-k.github.io/custom-quill-editor/demo/)
 
 ## Development
 
@@ -68,7 +68,8 @@ let jsonContent = JSON.stringify(delta);
 // Number 3.
 var htmlContent = customQuill.getEditor().root.innerHTML;
 // The choice is yours.
-```
+
+````
 
 ## To test the Video and Social Embed Section
 
@@ -93,4 +94,3 @@ https://player.vimeo.com/video/647293768?h=6b90701171
 ## Having Issues running the project
 
 Don't hesitate to raise a git issue or send an email to codekenn@gmail.com
-````
